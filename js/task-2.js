@@ -1,8 +1,8 @@
 class Storage {
   #items;
 
-  constructor(obj) {
-    this.#items = obj;
+  constructor(initialItems) {
+    this.#items = initialItems;
   }
   getItems() {
     return this.#items;
